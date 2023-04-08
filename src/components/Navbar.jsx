@@ -1,9 +1,11 @@
 import React from "react";
 import './Navbar.css';
-import { Link } from "react-router-dom";
-import logo from '..//assets/logo-small.png'
+import { Link, useNavigate } from "react-router-dom";
+import logo from '..//assets/logo-big.png';
 
 const Navbar = () => {
+
+    let navigate = useNavigate();
 
     const menuItems = [
         {
@@ -38,20 +40,18 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
-            <div className="navbar-logo">
-                <Link className="tp-logo-small" to="/"><img className="logo-nav" src={logo} alt="navlogo" /></Link>
+            <div className="logo">
+            <img className="logo-nav" onClick={() => navigate('/')} src={logo} alt="navlogo"/>
             </div>
-            <div className="nav-links">
                 <ul className="menu">
                     {menuItems.map((menu, index) => {
                         return (
                             <div className="menu-items" key={index}>
-                                <Link to={menu.url}>{menu.title}</Link>
+                                <Link className="menu-items-link" to={menu.url}>{menu.title}</Link>
                             </div>
                         )
                     })}
                 </ul>
-            </div>
         </div>
     )
 }
