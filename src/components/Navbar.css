@@ -3,8 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: #fff;
+  background-color: #ffffff;
   padding: 20px;
 }
 
@@ -33,31 +32,11 @@
 }
 
 .menu-items-link {
-  color: #fff;
+  color: black;
   text-decoration: none;
   font-weight: 700;
 }
 
-/* additional styles for first three menu items */
-.menu-items.top {
-  position: relative;
-}
-
-.menu-items.top:first-child {
-  margin-right: auto;
-}
-
-.menu-items.top:nth-child(2) {
-  margin-right: 20px;
-}
-
-.menu-items.top:nth-child(3) {
-  margin-right: 20px;
-}
-
-.menu-items.top .menu-items-link {
-  font-weight: bold;
-}
 
 /* media query for mobile */
 @media (max-width: 768px) {
