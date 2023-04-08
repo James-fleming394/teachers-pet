@@ -43,6 +43,11 @@
   border-radius: 10px;
 }
 
+.menu-items-link:active {
+  background-color: rgb(123, 167, 215);
+  border-radius: 10px;
+}
+
 
 /* media query for mobile */
 @media (max-width: 768px) {

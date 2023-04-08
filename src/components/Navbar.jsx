@@ -11,6 +11,10 @@ const Navbar = () => {
         {
             title: 'Assessments',
             url: '/assessments',
+            dropdownItems: [
+                { title: 'Tests', url: '/assessments/tests' },
+                { title: 'Quizzes', url: '/assessments/quizzes' },
+            ]
         },
         {
             title: 'Lessons',
@@ -48,6 +52,15 @@ const Navbar = () => {
                         return (
                             <div className="menu-items" key={index}>
                                 <Link className="menu-items-link" to={menu.url}>{menu.title}</Link>
+                                {menu.dropdownItems && (
+                                    <ul className="dropdown-menu">
+                                        {menu.dropdownItems.map((item, index) => {
+                                            <li className="dropdown-menu" key={index}>
+                                                <Link className="dropdown-menu-link" to={item.url}>{item.title}</Link>
+                                            </li>
+                                        })}
+                                    </ul>
+                                )}
                             </div>
                         )
                     })}
