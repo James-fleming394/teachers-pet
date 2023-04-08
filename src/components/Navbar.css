@@ -35,6 +35,12 @@
   color: black;
   text-decoration: none;
   font-weight: 700;
+  padding: 5px;
+}
+
+.menu-items-link:hover {
+  background-color: rgb(238, 237, 237);
+  border-radius: 10px;
 }
 
 
