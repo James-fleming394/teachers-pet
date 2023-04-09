@@ -19,14 +19,38 @@ const Navbar = () => {
         {
             title: 'Lessons',
             url: '/lessons',
+            dropdownItems: [
+                { title: 'Math', url: '/lessons/math' },
+                { title: 'English', url: '/lessons/english' },
+                { title: 'Writing', url: '/lessons/writing' },
+                { title: 'Science', url: '/lessons/science' },
+                { title: 'Social Studies', url: '/lessons/social-studies' },
+                { title: 'Other', url: '/lessons/other' },
+            ]
         },
         {
             title: 'Projects',
             url: '/projects',
+            dropdownItems: [
+                { title: 'Math', url: '/lessons/math' },
+                { title: 'English', url: '/lessons/english' },
+                { title: 'Writing', url: '/lessons/writing' },
+                { title: 'Science', url: '/lessons/science' },
+                { title: 'Social Studies', url: '/lessons/social-studies' },
+                { title: 'Other', url: '/lessons/other' },
+            ]
         },
         {
             title: 'Homework',
             url: '/homework',
+            dropdownItems: [
+                { title: 'Math', url: '/lessons/math' },
+                { title: 'English', url: '/lessons/english' },
+                { title: 'Writing', url: '/lessons/writing' },
+                { title: 'Science', url: '/lessons/science' },
+                { title: 'Social Studies', url: '/lessons/social-studies' },
+                { title: 'Other', url: '/lessons/other' },
+            ]
         },
         {
             title: 'Rewards',
