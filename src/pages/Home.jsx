@@ -10,9 +10,9 @@ const Home = () => {
         <div className="homepage">
             <div className="header">
                 <div className="header1">
-                    <h3>Teacher's Pet</h3>
-                    <h1>Teacher's Pet is a One Stop Shop<br></br> for Every Teacher's Needs</h1>
-                <button className="discover">Start Searching</button>
+                    <h3 className="header-h3">Teacher's Pet</h3>
+                    <h1 className="header-h1">Teacher's Pet is a One Stop <br></br>Shop for Every Teacher's Needs</h1>
+                    <button className="discover">Start Searching</button>
                 </div>
                 <img className="logo-image-home"
                 src= {HomeLogo}

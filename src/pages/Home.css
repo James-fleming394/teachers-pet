@@ -22,6 +22,16 @@
     padding: 10px;
 }
 
+.header-h3 {
+    align-items: left;
+    padding: 55px 0 0 0;
+}
+
+.header-h1 {
+    align-items: left;
+    padding: 15px 0 0 0;
+}
+
 
 .logo-image-home {
     max-width: 100%;
@@ -30,18 +40,20 @@
 
   /* Start Searching Button */
 .discover {
-    background-color: #00a6eb;
+    background-color: #0289c4;
     border: none;
     border-radius: 20px;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
     padding: 15px 40px;
     transition: background-color 0.2s ease;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .discover:hover {
-    background-color: #0088b8;
+    background-color: #03688d;
     cursor: pointer;
 }
 
