@@ -8,15 +8,13 @@ const Home = () => {
 
     return (
         <div className="homepage">
-            <header className="logo-home">
+            <div className="header">
                 <img className="logo-image-home"
                 src= {HomeLogo}
                 alt="homepagelogo"
                 />
-                <h1>Teacher's Pet</h1>
-                <h2>Everyone knows a Teacher's best friend is planning and preparation</h2>
-                <button className="discover">Start Searching</button>
-            </header>
+            </div>
+            <button className="discover">Start Searching</button>
             <div className="features">
                 <h3>Explore Our Resources</h3>
                 <div className="features-container">
@@ -26,7 +24,7 @@ const Home = () => {
                         alt="feature" />
                         <h4 className="feature-title">Second Grade Math Assessment Bundle</h4>
                         <p className="author">Ms. Tarnopal</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <p className="star"><img className="star-img" src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/3rd-Grade-Lesson-Plans-3233810-1657532532/original-3233810-1.jpg"
