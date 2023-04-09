@@ -8,6 +8,9 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Search />
+      <div className='actual-app'>
+        
+      </div>
     </div>
   );
 }

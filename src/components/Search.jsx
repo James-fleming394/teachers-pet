@@ -21,13 +21,15 @@ const Search = () => {
     return (
         <div className="search">
             <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    placeholder="Search"
-                    value={query}
-                    onChange={handleInputChange}
-                />
-                <button className="search-button" type="submit"><img className="search-image" src={searchLogo} alt="searchbuttonimage"/></button>
+                <div className="input-container">
+                    <input className="search-input"
+                        type="text"
+                        placeholder="Search"
+                        value={query}
+                        onChange={handleInputChange}
+                    />
+                    <button className="search-button" type="submit"><img className="search-image" src={searchLogo} alt="searchbuttonimage"/></button>
+                </div>
             </form>
         </div>
     )
