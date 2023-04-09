@@ -44,13 +44,14 @@ const Navbar = () => {
             title: 'Homework',
             url: '/homework',
             dropdownItems: [
-                { title: 'Math', url: '/lessons/math' },
-                { title: 'English', url: '/lessons/english' },
-                { title: 'Writing', url: '/lessons/writing' },
-                { title: 'Science', url: '/lessons/science' },
-                { title: 'Social Studies', url: '/lessons/social-studies' },
-                { title: 'Other', url: '/lessons/other' },
+                { title: 'Math', url: '/homework/math' },
+                { title: 'English', url: '/homework/english' },
+                { title: 'Writing', url: '/homework/writing' },
+                { title: 'Science', url: '/homework/science' },
+                { title: 'Social Studies', url: '/homework/social-studies' },
+                { title: 'Other', url: '/homework/other' },
             ]
+            
         },
         {
             title: 'Rewards',
@@ -77,13 +78,13 @@ const Navbar = () => {
                             <div className="menu-items" key={index}>
                                 <Link className="menu-items-link" to={menu.url}>{menu.title}</Link>
                                 {menu.dropdownItems && (
-                                    <ul className="dropdown-menu">
-                                        {menu.dropdownItems.map((item, index) => {
-                                            <li className="dropdown-menu" key={index}>
-                                                <Link className="dropdown-menu-link" to={item.url}>{item.title}</Link>
-                                            </li>
-                                        })}
-                                    </ul>
+                                <ul className="dropdown-menu">
+                                    {menu.dropdownItems.map((item, idx) => (
+                                        <li className="dropdown-menu-item" key={`${index}-${idx}`}>
+                                            <Link className="dropdown-menu-link" to={item.url}>{item.title}</Link>
+                                        </li>
+                                    ))}
+                                </ul>
                                 )}
                             </div>
                         )
