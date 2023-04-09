@@ -84,13 +84,14 @@
 .feature {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
 }
 
 .feature-image {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .feature-title {
@@ -99,9 +100,19 @@
     margin-bottom: 5px;
 }
 
+.feature-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .author {
     font-size: 14px;
     margin-bottom: 5px;
+}
+
+.author:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .star {
@@ -109,6 +120,11 @@
     align-items: center;
     font-size: 14px;
     color: #ff4800;
+}
+
+.star:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .star img {

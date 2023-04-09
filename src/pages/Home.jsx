@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             
             <div className="features">
-                <h3>Explore Our Resources</h3>
+                <h3 className="features-h3">Explore Our Resources</h3>
                 <div className="features-container">
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Grade-2-Math-Tests-Package-Based-on-the-Ontario-Curriculum-1670415055/original-689458-1.jpg"
