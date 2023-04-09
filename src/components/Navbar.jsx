@@ -51,15 +51,22 @@ const Navbar = () => {
                 { title: 'Social Studies', url: '/homework/social-studies' },
                 { title: 'Other', url: '/homework/other' },
             ]
-            
-        },
-        {
-            title: 'Rewards',
-            url: '/rewards',
         },
         {
             title: 'Technology',
             url: '/technology',
+            dropdownItems: [
+                { title: 'Math', url: '/technology/math' },
+                { title: 'English', url: '/technology/english' },
+                { title: 'Writing', url: '/technology/writing' },
+                { title: 'Science', url: '/technology/science' },
+                { title: 'Social Studies', url: '/technology/social-studies' },
+                { title: 'Other', url: '/technology/other' },
+            ]
+        },
+        {
+            title: 'Rewards',
+            url: '/rewards',
         },
         {
             title: 'About Us',

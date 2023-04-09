@@ -11,6 +11,7 @@
 .logo-nav {
   cursor: pointer;
   height: 70px;
+  border-radius: 10px;
 }
 
 .menu {
@@ -31,7 +32,20 @@
   font-size: 18px;
   font-weight: 600;
   padding: 10px 0;
+  padding: 10px;
   display: block;
+}
+
+.menu-items-link:hover {
+  color: black;
+  background-color: #dedddd;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0;
+  display: block;
+  padding: 10px;
 }
 
 .dropdown-menu {
@@ -64,4 +78,8 @@
 
 .menu-items:hover .dropdown-menu {
   display: block;
+}
+
+.dropdown-menu-link:hover {
+  background-color: #dedddd;
 }
