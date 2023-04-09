@@ -9,12 +9,17 @@ const Home = () => {
     return (
         <div className="homepage">
             <div className="header">
+                <div className="header1">
+                    <h3>Teacher's Pet</h3>
+                    <h1>Teacher's Pet is a One Stop Shop<br></br> for Every Teacher's Needs</h1>
+                <button className="discover">Start Searching</button>
+                </div>
                 <img className="logo-image-home"
                 src= {HomeLogo}
                 alt="homepagelogo"
                 />
             </div>
-            <button className="discover">Start Searching</button>
+            
             <div className="features">
                 <h3>Explore Our Resources</h3>
                 <div className="features-container">
@@ -24,7 +29,7 @@ const Home = () => {
                         alt="feature" />
                         <h4 className="feature-title">Second Grade Math Assessment Bundle</h4>
                         <p className="author">Ms. Tarnopal</p>
-                        <p className="star"><img className="star-img" src={RatingLogo} alt="rating"/>4.8</p>
+                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/3rd-Grade-Lesson-Plans-3233810-1657532532/original-3233810-1.jpg"
