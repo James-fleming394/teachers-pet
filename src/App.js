@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Search from './components/Search';
 import { Route, Routes } from 'react-router';
 import Home from './pages/Home';
+import Assessments from './pages/Assessments';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <div className='actual-app'>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/assessments" element={<Assessments />} />
         </Routes>
       </div>
     </div>
