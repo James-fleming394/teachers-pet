@@ -16,6 +16,7 @@ const Search = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         navigate(`/search?query=${query}`);
+        setQuery('')
     }
 
     return (
