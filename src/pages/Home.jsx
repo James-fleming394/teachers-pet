@@ -2,9 +2,11 @@ import React from "react";
 import './Home.css';
 import HomeLogo from '../assets/logo-big.png';
 import RatingLogo from '../assets/star.png'
-// import { useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 const Home = () => {
+
+    const navigate = useNavigate();
 
     return (
         <div className="homepage">
@@ -75,13 +77,10 @@ const Home = () => {
                 <div className="print-digital">
                     <h1 className="digital-h1">Teacher-Tested Solutions</h1>
                     <h2 className="digital-h2">Resources for busy teachers who need an extra hand in their classrooms</h2>
-                    <button className="exploring-button">Start Exploring</button>
-                    <img src="https://www.elmhurst.edu/wp-content/uploads/2021/02/articles-on-teacher-leadership-illustration.jpg" alt="resources" />
-                </div>
-                <div className="users">
+                    <div className="users">
                     <div className="users1">
                         <h2 className="users-h2">100+</h2>
-                        <p className="users-p"> teachers using Teacher's Pet</p>
+                        <p className="users-p"> teachers actively online</p>
                     </div>
                     <div className="users1">
                         <h2 className="users-h2">1000+</h2>
@@ -91,9 +90,11 @@ const Home = () => {
                         <h2 className="users-h2">10,000+</h2>
                         <p className="users-p"> resources downloaded</p>
                     </div>
+                </div>
                     <button className="user-button">
                         Discover Resources
                     </button>
+                    <img className="resources-img" src="https://www.elmhurst.edu/wp-content/uploads/2021/02/articles-on-teacher-leadership-illustration.jpg" alt="resources" />
                 </div>
             </div>
         </div>
