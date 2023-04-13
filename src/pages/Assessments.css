@@ -4,13 +4,25 @@
     padding: 40px;
 }
 
-.assess-title {
-    font-size: 45px;
+.assess-all {
+    font-size: 40px;
 }
 
 .test-quiz {
     display: flex;
     justify-content: center;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.test-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: whitesmoke;
 }
 
 .h1-test:hover {

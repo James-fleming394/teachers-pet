@@ -2,11 +2,11 @@ import React from "react";
 import './Home.css';
 import HomeLogo from '../assets/logo-big.png';
 import RatingLogo from '../assets/star.png'
-import { useNavigate } from "react-router";
+// import { useNavigate } from "react-router";
 
 const Home = () => {
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     return (
         <div className="homepage">
@@ -21,7 +21,7 @@ const Home = () => {
                 alt="homepagelogo"
                 />
             </div>
-            
+
             <div className="features">
                 <h3 className="features-h3">Explore Our Resources</h3>
                 <div className="features-container">
