@@ -71,6 +71,7 @@
     font-size: 24px;
     margin-bottom: 30px;
     text-align: center;
+    font-size: 35px;
 }
 
 .features-container {
@@ -92,6 +93,14 @@
     height: auto;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.feature-image:hover {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .feature-title {

@@ -1,0 +1,34 @@
+.assessments {
+    text-align: center;
+    background-color: #cdebf9;
+    padding: 40px;
+}
+
+.assess-title {
+    font-size: 45px;
+}
+
+.test-quiz {
+    display: flex;
+    justify-content: center;
+}
+
+.h1-test:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.h1-quiz:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.test-img {
+    width: 75%;
+}
+
+.test-img:hover {
+    width: 75%;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
