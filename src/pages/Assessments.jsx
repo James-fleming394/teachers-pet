@@ -1,20 +1,31 @@
 import React from "react";
 import './Assessments.css';
 import RatingLogo from '../assets/star.png';
+import { useNavigate } from "react-router";
 
 const Assessments = () => {
+
+    let navigate = useNavigate();
+
+    const testClick = () => {
+        navigate('/assessments/tests');
+    }
+
+    const quizClick = () => {
+        navigate('/assessments/quizzes');
+    }
     
     return (
         <div className="assessments">
             <div className="test-quiz">
-                <div className="assess-tests">
+                <div className="assess-tests" onClick={testClick}>
                     <h1 className="h1-test">Tests</h1>
                     <img 
                     className="test-img" 
                     src="https://media.istockphoto.com/id/1253525938/vector/students-work-on-computers-in-a-beautiful-classroom.jpg?s=612x612&w=0&k=20&c=41g7DjnIXzxBnzbuS8Zw6rVLnFYn6PFCrbMNyZ_uuDc="
                     alt="test taking" />
                 </div>
-                <div className="assess-quizzes">
+                <div className="assess-quizzes" onClick={quizClick}>
                     <h1 className="h1-quiz">Quizzes</h1>
                     <img 
                     className="test-img" 
@@ -123,6 +134,7 @@ const Assessments = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     )
 
