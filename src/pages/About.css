@@ -1,0 +1,43 @@
+.about {
+    background-color: #cdebf9;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.about-info {
+    width: 50%;
+}
+
+.h1-info {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.p-about {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.links-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.a-links {
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.a-links:hover {
+    border-bottom: 5px solid white;
+}
+
+.links-about img {
+    height: 50px;
+}
