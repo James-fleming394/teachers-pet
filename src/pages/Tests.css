@@ -1,0 +1,53 @@
+.test {
+    background-color: whitesmoke;
+}
+
+.testing-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.testing-intro-left {
+    width: 50%;
+    padding: 0 50px;
+}
+
+.testing-h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.testing-p {
+    line-height: 1.5;
+    font-size: 18px;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+
+.testing-intro-right {
+    width: 50%;
+}
+
+.testing-intro-img {
+    width: 100%;
+    height: 450px;
+}
+
+.testing-button {
+    background-color: whitesmoke;
+    padding: 12px 24px;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.testing-button:hover {
+    background-color: rgb(210, 197, 197);
+}
