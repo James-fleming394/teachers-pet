@@ -107,20 +107,20 @@ const Tests = () => {
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Pop-Quiz-About-Your-New-Teacher-An-Editable-First-Day-of-School-Activity-2694894-1657569426/original-2694894-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Nonfiction-Text-Structure-Game-Show-Test-Prep-Reading-Review-Game-Digital-3003374-1678869086/original-3003374-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Pop Quiz: Your Teacher</h4>
-                        <p className="author">Ms. Lopez</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.1</p>
+                        <h4 className="feature-title">Text Structure: Game Show</h4>
+                        <p className="author">Ms. Garcia</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.3</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Game-Day-Test-Prep-1657114040/original-1103918-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Reading-Test-Prep-Task-Cards-Printable-Google-Forms-and-Slides-3671113-1673027655/original-3671113-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Game Day Test Prep</h4>
-                        <p className="author">Mr. Settler</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <h4 className="feature-title">Test Prep: Reading Task Cards</h4>
+                        <p className="author">Ms. Wiley</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>3.9</p>
                     </div>
                 </div>
             </div>
