@@ -25,100 +25,100 @@ const Quizzes = () => {
                 <h1 className="assess-all">Quiz Resources</h1>
                 <div className="features-container">
                     <div className="feature">
-                        <img src=""
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Morning-Work-4th-Grade-1992301-1676381474/original-1992301-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Second Grade Math Assessment Bundle</h4>
-                        <p className="author">Ms. Tarnopal</p>
-                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
+                        <h4 className="feature-title">Morning Work: Quiz Bundle</h4>
+                        <p className="author">Mr. DeSimone</p>
+                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src=""
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/5th-Grade-Math-and-English-Language-Daily-Morning-Work-Common-Core-1451932-1675687482/original-1451932-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Teacher Test Prep Motivations</h4>
+                        <h4 className="feature-title">Morning Work: Spiral Reviews</h4>
                         <p className="author">Mr. Fleming</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.5</p>
                     </div>
                     <div className="feature">
-                        <img src=""
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Algebra-Endof-Year-Review-Packets-Quizzes-1657111926/original-679354-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Test-Time Sunshine for Teachers!</h4>
-                        <p className="author">Ms. Cavataio</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
-                    </div>
-                    <div className="feature">
-                        <img src=""
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Fifth Grade Math Crunch Time Test Prep</h4>
-                        <p className="author">Ms. Spina</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>5.0</p>
-                    </div>
-                    <div className="feature">
-                        <img src=""
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Np Prep Test Prep: Grade 3 Math</h4>
-                        <p className="author">Mr. Chaitin</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
-                    </div>
-                    <div className="feature">
-                        <img src=""
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">6th Grade Math Test Prep Review</h4>
-                        <p className="author">Ms. Munson</p>
+                        <h4 className="feature-title">Algebra I: End of Year Review</h4>
+                        <p className="author">Ms. Dinuzzio</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                     <div className="feature">
-                        <img src=""
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Geometry-End-of-Year-Review-Packets-Quizzes-1818585-1657119439/original-1818585-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Test Terms: <br></br>Posters & Reference Pages</h4>
+                        <h4 className="feature-title">Geometry: End of Year Review</h4>
+                        <p className="author">Ms. Dinuzzio</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>5.0</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Great-Gatsby-240-page-EDITABLE-MEGA-UNIT-Rigor-for-AP-LIT-HONORS--5272851-1680350528/original-5272851-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">The Great Gatsby: Mega Quiz Bundle</h4>
+                        <p className="author">Mr. Chaitin</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.3</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Spanish-Speaking-Countries-Map-Labeling-2390714-1657270156/original-2390714-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Spanish: Countries & Capitals Quiz</h4>
+                        <p className="author">Ms. Bautista</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/My-Seven-Continents-Book-1258956-1669581534/original-1258956-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Continents & Oceans Quiz Bundle</h4>
                         <p className="author">Mr. Bautista</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.5</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Standardized-Test-Prep-UNIT-Testing-as-A-Genre-Daily-Mini-Lessons-BUNDLE-5257202-1657589445/original-5257202-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Hunger-Games-Unit-Lessons-QA-Tests-Activities-Quiz-Vocab-Maps-Key-1657623927/original-59190-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Standardized Test Prep Unit: <br></br>Stratgies, Lesson Plans and Activities</h4>
+                        <h4 className="feature-title">Hunger Games Book Quiz</h4>
                         <p className="author">Ms. Hall</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.4</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.6</p>
                     </div>
                     <div className="feature">
-                        <img src=""
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Understanding-Logical-Fallacies-CCSS-aligned-1665937719/original-1316320-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Testing Desk Treats: <br></br>35 Encouraging Notes</h4>
+                        <h4 className="feature-title">Logical Fallacies: Unit & Quizzes</h4>
                         <p className="author">Ms. Russo</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
-                    </div>
-                    <div className="feature">
-                        <img src=""
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Do Not Disturb Testing Signs</h4>
-                        <p className="author">Ms. Katz</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
-                    </div>
-                    <div className="feature">
-                        <img src=""
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Text Structure: Game Show</h4>
-                        <p className="author">Ms. Garcia</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.3</p>
                     </div>
                     <div className="feature">
-                        <img src=""
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Phonics-Assessments-Decoding--260125-1681297813/original-260125-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Test Prep: Reading Task Cards</h4>
+                        <h4 className="feature-title">Phonics:  Assessments & Quizzes</h4>
+                        <p className="author">Ms. Katz</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/A-Resource-Guide-to-Use-with-Hatchet-1669681420/original-274317-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Hatchet: Book Unit and Quiz</h4>
+                        <p className="author">Ms. Tarnopal</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.5</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Patterns-and-the-Coordinate-Plane-Lesson-Packet-Quiz-5-OA-3-3481884-1668097758/original-3481884-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Patterns and Shapes Quiz Unit</h4>
                         <p className="author">Ms. Wiley</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>3.9</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                 </div>
             </div>
