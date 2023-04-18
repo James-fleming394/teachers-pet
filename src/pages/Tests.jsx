@@ -4,8 +4,6 @@ import RatingLogo from '../assets/star.png';
 
 const Tests = () => {
 
-
-
     return (
         <div className="test">
             <div className="testing-intro">
