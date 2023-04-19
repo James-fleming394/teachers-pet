@@ -1,0 +1,55 @@
+.lesson-home {
+    text-align: center;
+    background-color: #cdebf9;
+    padding: 40px;
+}
+
+.lesson-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.lessons-section {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .lessons-section {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+.lesson-all {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.lesson-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.h1-lesson:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lesson-img {
+    height: 200px;
+    width: 200px;
+}
+
+.lesson-img:hover {
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
