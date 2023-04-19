@@ -8,6 +8,7 @@ import Assessments from './pages/Assessments';
 import Tests from './pages/Tests';
 import Quizzes from './pages/Quizzes';
 import About from './pages/About';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
