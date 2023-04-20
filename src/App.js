@@ -10,6 +10,7 @@ import Quizzes from './pages/Quizzes';
 import About from './pages/About';
 import Footer from './components/Footer';
 import Lesson from './pages/Lesson';
+import MathLesson from './pages/Lesson-math';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
               <Route path="/assessments/tests" element={<Tests />} />
               <Route path="/assessments/quizzes" element={<Quizzes />} />
           <Route path="/lessons" element={<Lesson />} />
+              <Route path="/lessons/math" element={<MathLesson />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>

@@ -39,7 +39,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="footer-last">
-                            <p className="footer-p-btm">Contact me Here</p>
+                            <p className="footer-p-btm">Contact me Here:</p>
                             <p className="footer-p-btm"><a href="mailto:James.Fleming394@gmail.com">James.Fleming394@gmail.com</a></p>
                             <p className="footer-p-btm">Copyright (C) 2023 James Fleming - All Rights Reserved</p>
                         </div>
