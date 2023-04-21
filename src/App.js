@@ -11,6 +11,7 @@ import About from './pages/About';
 import Footer from './components/Footer';
 import Lesson from './pages/Lesson';
 import MathLesson from './pages/Lesson-math';
+import EnglishLesson from './pages/Lesson-english';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
               <Route path="/assessments/quizzes" element={<Quizzes />} />
           <Route path="/lessons" element={<Lesson />} />
               <Route path="/lessons/math" element={<MathLesson />} />
+              <Route path="/lessons/english" element={<EnglishLesson />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
