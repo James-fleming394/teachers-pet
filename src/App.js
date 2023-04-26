@@ -13,6 +13,7 @@ import Lesson from './pages/Lesson';
 import MathLesson from './pages/Lesson-math';
 import EnglishLesson from './pages/Lesson-english';
 import WritingLesson from './pages/Lesson-writing';
+import ScienceLesson from './pages/Lesson-science';
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
               <Route path="/lessons/math" element={<MathLesson />} />
               <Route path="/lessons/english" element={<EnglishLesson />} />
               <Route path="/lessons/writing" element={<WritingLesson />} />
+              <Route path="/lessons/science" element={<ScienceLesson />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
