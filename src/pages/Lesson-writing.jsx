@@ -8,7 +8,7 @@ const WritingLesson = () => {
         <div className="test">
             <div className="testing-intro">
                 <div className="testing-intro-left">
-                    <h1 className="testing-h1">English Lessons</h1>
+                    <h1 className="testing-h1">Writing Lessons</h1>
                     <p className="testing-p">
                         Lesson plans help students and teachers understand the goals of the instructional module.  
                         <br></br>
@@ -18,109 +18,109 @@ const WritingLesson = () => {
                 </div>
                 <div className="testing-intro-right">
                     <img className="testing-intro-img" 
-                    src="https://psenglish.co.uk/wp-content/uploads/2022/08/clases-de-ingles_0-720x400.jpg" 
+                    src="https://img.freepik.com/free-vector/hand-holding-pen-writing-blank-book_1308-123379.jpg?w=2000" 
                     alt="testing" />
                 </div>
             </div>
             <div id="test-resources" className="test-resources">
             <div className="test-features">
-                <h1 className="assess-all">ELA Lessons</h1>
+                <h1 className="assess-all">Writing Lessons</h1>
                 <div className="features-container">
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Reading-Test-Prep-101-Mini-Unit-for-Grades-3-5-1675280570/original-576688-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Writing-Bundle-Personal-Narrative-Informational-Opinion-Fiction-3RD-GRADE-3603451-1676033245/original-3603451-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Reading Test Prep Lessons</h4>
-                        <p className="author">Ms. Boyle</p>
-                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
+                        <h4 className="feature-title">3rd Grade: Writing Unit Bundle</h4>
+                        <p className="author">Ms. Brennan</p>
+                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Emergency-Sub-Lesson-Plans-for-Middle-School-2340227-1678272650/original-2340227-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Paragraph-Writing-Aligned-to-Common-Core-1678180211/original-795838-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">ELA Emergency Substitute Lessons</h4>
-                        <p className="author">Mr. Nappi</p>
+                        <h4 className="feature-title">Sentence & Paragraph Lessons</h4>
+                        <p className="author">Mr. Covert</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Day-the-Crayons-Quit-Opinion-Writing-2495386-1657522048/original-2495386-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Opinion Letter: Starting Lessons</h4>
+                        <p className="author">Ms. Bloom</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/4th-Grade-ELA-Reading-Writing-Language-Curriculum-ELA-Common-Core-Standards-3235542-1679053232/original-3235542-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/KinderWriting-Kindergarten-Writing-Curriculum-BUNDLED-Homeschool-Compatible--3349340-1679276122/original-3349340-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">All Year ELA Fourth Grade Lessons</h4>
-                        <p className="author">Ms. Norey</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/5-Doodle-Notes-and-Learning-Activities-Mini-Units-Reading-Comprehension-Skills-2942284-1657531389/original-2942284-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Reading Skills Unit Lesson</h4>
-                        <p className="author">Ms. Abinakad</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <h4 className="feature-title">Kindergarten Writing Lessons Bundle</h4>
+                        <p className="author">Ms. Munson</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.6</p>
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Grammar-Curriculum-Growing-Bundle-FULL-YEAR-of-Editable-Lessons-for-ELA-3281038-1657532707/original-3281038-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">ELA Grammar Bundle</h4>
+                        <h4 className="feature-title">Writing Grammar Bundle</h4>
                         <p className="author">Mr. Fleming</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Novel-a-unit-for-any-novel-secondary-English-1657527093/original-1944538-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Poetry-Unit-Poetry-Writing-Bundle-642237-1676655504/original-642237-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Novel Unit Lessons</h4>
-                        <p className="author">Ms. Munson</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Language-Arts-Leveled-Daily-Curriculum-BUNDLE--2001081-1665074585/original-2001081-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Bundle: ELA Leveled Reading Lessons</h4>
-                        <p className="author">Mr. Lopez</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Doodle-and-Do-ELA-Skills-Bundle-6-Units-Vocabulary-Writing-Reading-3956308-1657535566/original-3956308-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">ELA Reading Skills Bundle</h4>
-                        <p className="author">Ms. Cola</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>5.0</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/3rd-Grade-ELA-Reading-and-Writing-Bundle-4947681-1657540698/original-4947681-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">ELA 3rd Grade Resource Bundle</h4>
-                        <p className="author">Ms. Olivera</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/On-the-Go-ELA-Routines-4750203-1657578632/original-4750203-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">On the Go ELA Routine Lessons</h4>
-                        <p className="author">Ms. Tarnopal</p>
+                        <h4 className="feature-title">Poetry Writing Unit Bundle</h4>
+                        <p className="author">Ms. Boyle</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/RACE-Strategy-BUNDLE-12-Teaching-Slides-6-Practice-Activities-ELA-Test-Prep-6483014-1679651648/original-6483014-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Personal-Narrative-Writing-Unit-Small-Moments-1657568404/original-247799-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">R.A.C.E.S Lessons Bundle</h4>
+                        <h4 className="feature-title">Personal Naratives Lessons: 1st Grade</h4>
+                        <p className="author">Mr. Roth</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.5</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Informational-Report-Writing-Unit-THIRD-GRADE-3237698-1678132961/original-3237698-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">3rd Grade: Informational Report Unit</h4>
+                        <p className="author">Ms. Derasmo</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>5.0</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Kindergarten-Morning-Work-Kindergarten-Writing-Prompts-For-the-Entire-Year-2695332-1659401100/original-2695332-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Paperless Writing Prompts</h4>
+                        <p className="author">Ms. Cavataio</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Argumentative-Writing-Unit-Grades-7-12-2374879-1662294417/original-2374879-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Middle School Argumentative Writing Lessons</h4>
+                        <p className="author">Ms. Fagan</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Opinion-Writing-Unit-My-Opinion-Matters-1681245973/original-229475-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">Opinion Writing Unit Lessons</h4>
                         <p className="author">Ms. Manca</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Independent-and-Dependent-Clauses-2144125-1657646962/original-2144125-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Write-the-Room-Kindergarten-Year-Long-BUNDLE-42-Themes-Included-3511983-1675948222/original-3511983-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Grammar: Clauses Unit Lessons</h4>
-                        <p className="author">Ms. Taylor</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.3</p>
+                        <h4 className="feature-title">Year Long Write the Room Wiritng Bundle</h4>
+                        <p className="author">Ms. Adler</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.6</p>
                     </div>
                 </div>
             </div>
