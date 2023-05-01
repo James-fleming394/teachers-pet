@@ -14,6 +14,7 @@ import MathLesson from './pages/Lesson-math';
 import EnglishLesson from './pages/Lesson-english';
 import WritingLesson from './pages/Lesson-writing';
 import ScienceLesson from './pages/Lesson-science';
+import SSLesson from './pages/Lesson-ss';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
               <Route path="/lessons/english" element={<EnglishLesson />} />
               <Route path="/lessons/writing" element={<WritingLesson />} />
               <Route path="/lessons/science" element={<ScienceLesson />} />
+              <Route path="/lessons/social-studies" element={<SSLesson />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
