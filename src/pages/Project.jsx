@@ -139,28 +139,28 @@ const Projects = () => {
                 <h1 className="assess-all">Featured Writing Projects</h1>
                 <div className="features-container">
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Common-Core-Writing-for-1st-Grade-Narratives-Informative-Opinion-Bundle-1657552962/original-487663-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Easter-Craft-Activities-Writing-Prompt-Art-Project-Easter-Bunny-House-for-Sale-158880-1681213614/original-158880-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">First Grade Writing Lessons</h4>
-                        <p className="author">Ms. Pealone</p>
-                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
+                        <h4 className="feature-title">End of Year Classroom Project</h4>
+                        <p className="author">Ms. Sandler</p>
+                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Writing-Center-Printables-Interactive-Learning-Display-853834-1678980824/original-853834-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/-Animal-Reports-A-Lapbook-Animal-Research-Project-Informational-Writing-1771546-1676851428/original-1771546-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Interactive Writing Lessons/Centers</h4>
-                        <p className="author">Ms. Bryant</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Day-the-Crayons-Quit-Opinion-Writing-2495386-1657522048/original-2495386-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Opinionated Writing Lessons: 10 Day Plan</h4>
-                        <p className="author">Ms. Reagan</p>
+                        <h4 className="feature-title">Animals Guided Research & Writing Project</h4>
+                        <p className="author">Ms. O'Hare</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                    </div>
+                    <div className="feature">
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/EARTH-DAY-ACTIVITIES-craft-writing-prompt-lesson-flip-book-coloring-art-project-105282-1682428128/original-105282-1.jpg"
+                        className="feature-image"
+                        alt="feature" />
+                        <h4 className="feature-title">How To Build a Taco: Writing Project</h4>
+                        <p className="author">Ms. Gould</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                 </div>
             </div>
