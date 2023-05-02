@@ -16,6 +16,7 @@ import WritingLesson from './pages/Lesson-writing';
 import ScienceLesson from './pages/Lesson-science';
 import SSLesson from './pages/Lesson-ss';
 import OtherLesson from './pages/Lesson-other';
+import Projects from './pages/Project';
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
               <Route path="/lessons/science" element={<ScienceLesson />} />
               <Route path="/lessons/social-studies" element={<SSLesson />} />
               <Route path="/lessons/other" element={<OtherLesson />} />
+            <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
