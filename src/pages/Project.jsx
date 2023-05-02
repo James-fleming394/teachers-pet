@@ -110,28 +110,28 @@ const Projects = () => {
                 <h1 className="assess-all">Featured English Projects</h1>
                 <div className="features-container">
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Interactive-Reading-Notebooks-Informational-Text-Nonfiction-for-Common-Core-4-8-1668076774/original-790642-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Afro-Latinos-Printable-Research-Poster-Project-SPANISH-AND-ENGLISH-4340086-1678206930/original-4340086-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Interactive Reading: Non-Fiction Texts</h4>
-                        <p className="author">Ms. Manca</p>
-                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.6</p>
+                        <h4 className="feature-title">Black History Month Research Project</h4>
+                        <p className="author">Ms. Smith</p>
+                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Phonics-Poetry-for-Grades-K-2-1475734-1674900096/original-1475734-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Animal-Research-Project-Spanish-English-BUNDLE-1852863-1665251409/original-1852863-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Phonics Poetry Lesson</h4>
-                        <p className="author">Ms. Brennan</p>
+                        <h4 className="feature-title">My Animal Research Project</h4>
+                        <p className="author">Ms. Kelly</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Interactive-Reading-Journal-Notebook-for-K-2-Common-Core-Aligned-073763000-1378165324-1681133125/original-858335-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/English-Language-Arts-Choice-Board-Project-Based-Summer-or-Distance-Learning-5596185-1597422873/original-5596185-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Interactive Reading Notebook</h4>
-                        <p className="author">Ms. Hall</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.4</p>
+                        <h4 className="feature-title">Langauge Arts Choice Board</h4>
+                        <p className="author">Ms. Tarnopal</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                 </div>
             </div>
