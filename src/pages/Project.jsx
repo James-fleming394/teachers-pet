@@ -81,26 +81,26 @@ const Projects = () => {
                 <h1 className="assess-all">Featured Math Projects</h1>
                 <div className="features-container">
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/STEM-Bins-STEAM-Bins-STEM-Activities-2719619-1658944359/original-2719619-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Place-Value-Detective-A-Place-Value-Project-Enrichment-Centers-Small-Group-056730700-1375389930-1667869978/original-804151-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">STEM Bins Lesson</h4>
-                        <p className="author">Ms. Besio</p>
+                        <h4 className="feature-title">Place Value Detective Project</h4>
+                        <p className="author">Ms. Byrant</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Counting-Money-Game--549035-1681834203/original-549035-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/GEOMETROCITY-Create-Build-a-City-Made-of-Math-Using-Geometry-1339693-1645475556/original-1339693-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Money Math Game Lesson</h4>
-                        <p className="author">Mr. Swingle</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <h4 className="feature-title">Geometrocity Project</h4>
+                        <p className="author">Mr. Hanley</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Fraction-Activities-Fraction-Unit-Printable-Worksheets-Lessons-Assessments-1016354-1680543197/original-1016354-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Multiplication-and-Division-Project-1949479-1682172914/original-1949479-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Fractions Lessons: Grade 4</h4>
+                        <h4 className="feature-title">Video Game Truck: Math Project</h4>
                         <p className="author">Ms. Fagan</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
