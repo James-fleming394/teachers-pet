@@ -32,12 +32,12 @@ const Navbar = () => {
             title: 'Projects',
             url: '/projects',
             dropdownItems: [
-                { title: 'Math', url: '/lessons/math' },
-                { title: 'English', url: '/lessons/english' },
-                { title: 'Writing', url: '/lessons/writing' },
-                { title: 'Science', url: '/lessons/science' },
-                { title: 'Social Studies', url: '/lessons/social-studies' },
-                { title: 'Other', url: '/lessons/other' },
+                { title: 'Math', url: '/projects/math' },
+                { title: 'English', url: '/projects/english' },
+                { title: 'Writing', url: '/projects/writing' },
+                { title: 'Science', url: '/projects/science' },
+                { title: 'Social Studies', url: '/projects/social-studies' },
+                { title: 'Other', url: '/projects/other' },
             ]
         },
         {
