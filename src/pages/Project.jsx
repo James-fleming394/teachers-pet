@@ -168,27 +168,27 @@ const Projects = () => {
                 <h1 className="assess-all">Featured Science Projects</h1>
                 <div className="features-container">
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/KinderScience-Kindergarten-Science-Curriculum-Homeschool-Compatible--2739645-1676993479/original-2739645-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Animal-Adaptations-l-Science-Writing-and-Art-Create-a-Creature-Project--1826571-1669198904/original-1826571-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Kindergarten Science Curriculum</h4>
-                        <p className="author">Mr. Fleming</p>
-                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <h4 className="feature-title">Create a Creature: Science Project</h4>
+                        <p className="author">Mr. Chaitin</p>
+                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Apple-Science-Interactive-Activities-1444752-1681123182/original-1444752-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Human-Body-Organ-System-Poster-Project-1615196-1664360986/original-1615196-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Apple Science Lessons</h4>
-                        <p className="author">Ms. Reginoe</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <h4 className="feature-title">Human Body: Organ System Project</h4>
+                        <p className="author">Ms. Chdyl</p>
+                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Weather-and-Climate-Interactive-Notebook-BUNDLE-by-Science-Doodles-1550560-1657525533/original-1550560-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Solar-System-Craft-ivity-1658604854/original-589657-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Weather & Climate Interactive Notebook Lessons</h4>
-                        <p className="author">Ms. Wallace</p>
+                        <h4 className="feature-title">Solar System & Planets Project</h4>
+                        <p className="author">Ms. Brown</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                 </div>
