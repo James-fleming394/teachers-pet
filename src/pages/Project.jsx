@@ -226,27 +226,27 @@ const Projects = () => {
                 <h1 className="assess-all">Featured Other Projects</h1>
                 <div className="features-container">
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/First-Grade-Back-to-School-Activities-First-Week-Beginning-of-the-Year-BUNDLE-139226-1664282753/original-139226-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Summer-Bucket-List-Craft-End-of-the-Year-Activities-May-Bulletin-Board-Project-1222474-1682884589/original-1222474-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Back to School Activites 1st Grade</h4>
-                        <p className="author">Ms. Munson</p>
+                        <h4 className="feature-title">Summer Bucket List Project</h4>
+                        <p className="author">Ms. O'Neill</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Back-to-School-Math-Activities-for-the-First-Week-of-School-297895-1661609294/original-297895-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Create-a-Board-Game-Project-Based-Learning-Unit-Templates-Rubrics-EDITABLE-3108396-1670631850/original-3108396-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Back to School Activites Kindergarten</h4>
-                        <p className="author">Ms. Spina</p>
+                        <h4 className="feature-title">Create a Boardgame: Math Project</h4>
+                        <p className="author">Ms. Norris</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
                     </div>
                     <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Summer-Theme-Preschool-Lesson-Plan-and-Summer-Activities-BUNDLE-2-3750691-1657528143/original-3750691-1.jpg"
+                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Game-of-Life-Financial-Literacy-Project-1639002404/original-627444-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Summer Lessons Bundles</h4>
-                        <p className="author">Ms. Lopez</p>
+                        <h4 className="feature-title">Game of Life: Financial Project</h4>
+                        <p className="author">Ms. DeSimone</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
                     </div>
                 </div>
