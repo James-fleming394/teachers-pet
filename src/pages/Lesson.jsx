@@ -223,35 +223,6 @@ const Lesson = () => {
                 </div>
             </div>
             <div className="featured">
-                <h1 className="assess-all">Featured Social Studies Lessons</h1>
-                <div className="features-container">
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Little-SOCIAL-STUDIES-Thinkers-UNIT-1-Citizenship-Kindergarten-Social-Studies--2689773-1664967206/original-2689773-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Social Studies: Citizenship Lessons</h4>
-                        <p className="author">Ms. Scott</p>
-                        <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.6</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Colony-Unit-filled-with-Informational-Text-Quiz-Test-Project-1668958073/original-510660-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Social Studies: Colonial Unit Lessons</h4>
-                        <p className="author">Ms. Weinberg</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
-                    </div>
-                    <div className="feature">
-                        <img src="https://ecdn.teacherspayteachers.com/thumbitem/Holidays-and-Christmas-Around-the-World-Digital-and-Printable-2885336-1671833250/original-2885336-1.jpg"
-                        className="feature-image"
-                        alt="feature" />
-                        <h4 className="feature-title">Holidays Around the World Lesson</h4>
-                        <p className="author">Ms. Cayne</p>
-                        <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
-                    </div>
-                </div>
-            </div>
-            <div className="featured">
                 <h1 className="assess-all">Featured Other Lessons</h1>
                 <div className="features-container">
                     <div className="feature">
