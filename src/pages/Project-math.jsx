@@ -94,7 +94,7 @@ const MathProject = () => {
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Project-Based-Learning-Open-a-Food-Truck-2561215-1683035622/original-2561215-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Run a Food Truck: MAth Project</h4>
+                        <h4 className="feature-title">Run a Food Truck: Math Project</h4>
                         <p className="author">Ms. Brennan</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.5</p>
                     </div>
