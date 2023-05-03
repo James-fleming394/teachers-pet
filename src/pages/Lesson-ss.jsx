@@ -18,7 +18,7 @@ const SSLesson = () => {
                 </div>
                 <div className="testing-intro-right">
                     <img className="testing-intro-img" 
-                    src="https://img.freepik.com/free-vector/colorful-science-education-background_23-2148490697.jpg?w=2000" 
+                    src="https://media.istockphoto.com/id/1178800730/vector/children-having-fun-with-earth.jpg?s=612x612&w=0&k=20&c=jx-BSJg312kHJ3J-BSzQXM2oW7ZAKjU4Xr0aYNgFDX8=" 
                     alt="testing" />
                 </div>
             </div>
