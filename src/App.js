@@ -21,6 +21,7 @@ import MathProject from './pages/Project-math';
 import EnglishProject from './pages/Project-english';
 import WritingProject from './pages/Project-writing';
 import ScienceProject from './pages/Project-science';
+import SSProject from './pages/Project-ss';
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
               <Route path="/projects/english" element={<EnglishProject />} /> 
               <Route path="/projects/writing" element={<WritingProject />} /> 
               <Route path="/projects/science" element={<ScienceProject />} /> 
+              <Route path="/projects/social-studies" element={<SSProject />} /> 
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
