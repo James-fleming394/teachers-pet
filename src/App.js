@@ -17,6 +17,7 @@ import ScienceLesson from './pages/Lesson-science';
 import SSLesson from './pages/Lesson-ss';
 import OtherLesson from './pages/Lesson-other';
 import Projects from './pages/Project';
+import MathProject from './pages/Project-math';
 
 const App = () => {
   return (
@@ -37,6 +38,11 @@ const App = () => {
               <Route path="/lessons/social-studies" element={<SSLesson />} />
               <Route path="/lessons/other" element={<OtherLesson />} />
             <Route path="/projects" element={<Projects />} />
+              <Route path="/projects/math" element={<MathProject />} /> 
+
+
+
+
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
