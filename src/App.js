@@ -28,6 +28,7 @@ import MathHomework from './pages/Homework-math';
 import EnglishHomework from './pages/Homework-english';
 import WritingHomework from './pages/Homework-writing';
 import ScienceHomework from './pages/Homework-science';
+import SSHomework from './pages/Homework-ss';
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
               <Route path="/homework/english" element={<EnglishHomework />} />
               <Route path="/homework/writing" element={<WritingHomework />} />
               <Route path="/homework/science" element={<ScienceHomework />} />
+              <Route path="/homework/social-studies" element={<SSHomework />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
