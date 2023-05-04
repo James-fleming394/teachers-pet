@@ -27,6 +27,7 @@ import Homework from './pages/Homework';
 import MathHomework from './pages/Homework-math';
 import EnglishHomework from './pages/Homework-english';
 import WritingHomework from './pages/Homework-writing';
+import ScienceHomework from './pages/Homework-science';
 
 const App = () => {
   return (
@@ -57,6 +58,7 @@ const App = () => {
               <Route path="/homework/math" element={<MathHomework />} />
               <Route path="/homework/english" element={<EnglishHomework />} />
               <Route path="/homework/writing" element={<WritingHomework />} />
+              <Route path="/homework/science" element={<ScienceHomework />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
