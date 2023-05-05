@@ -37,6 +37,7 @@ import WritingTechnology from './pages/Technology-writing';
 import ScienceTechnology from './pages/Technology-science';
 import SSTechnology from './pages/Technology-ss';
 import OtherTechnology from './pages/Technology-other';
+import Rewards from './pages/Reward';
 
 const App = () => {
   return (
@@ -77,6 +78,7 @@ const App = () => {
               <Route path="/technology/science" element={<ScienceTechnology />} />
               <Route path="/technology/social-studies" element={<SSTechnology />} />
               <Route path="/technology/other" element={<OtherTechnology />} />
+          <Route path="/rewards" element={<Rewards />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
