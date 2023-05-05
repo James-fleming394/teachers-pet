@@ -30,6 +30,7 @@ import WritingHomework from './pages/Homework-writing';
 import ScienceHomework from './pages/Homework-science';
 import SSHomework from './pages/Homework-ss';
 import OtherHomework from './pages/Homework-other';
+import Technology from './pages/Technology';
 
 const App = () => {
   return (
@@ -63,6 +64,7 @@ const App = () => {
               <Route path="/homework/science" element={<ScienceHomework />} />
               <Route path="/homework/social-studies" element={<SSHomework />} />
               <Route path="/homework/other" element={<OtherHomework />} />
+            <Route path="/technology" element={<Technology />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
