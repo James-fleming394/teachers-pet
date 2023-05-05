@@ -35,6 +35,7 @@ import MathTechnology from './pages/Technology-math';
 import EnglishTechnology from './pages/Technology-english';
 import WritingTechnology from './pages/Technology-writing';
 import ScienceTechnology from './pages/Technology-science';
+import SSTechnology from './pages/Technology-ss';
 
 const App = () => {
   return (
@@ -73,6 +74,7 @@ const App = () => {
               <Route path="/technology/english" element={<EnglishTechnology />} />
               <Route path="/technology/writing" element={<WritingTechnology />} />
               <Route path="/technology/science" element={<ScienceTechnology />} />
+              <Route path="/technology/social-studies" element={<SSTechnology />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
