@@ -1,7 +1,7 @@
 import React from "react";
 import './Tests.css';
 import RatingLogo from '../assets/star.png';
-import DownloadIcon from '../assets/download.png';
+
 
 const Rewards = () => {
 
@@ -32,7 +32,6 @@ const Rewards = () => {
                         <h4 className="feature-title">Behavior and Rewards Survival Kit</h4>
                         <p className="author">Ms. Tracey</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
-                        <p className="star"><img className="star-" src={DownloadIcon} alt="download"/>Download Resource</p>
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Reward-Coupons-for-Positive-Classroom-Management-Editable--1099807-1662013227/original-1099807-1.jpg"
