@@ -1,6 +1,6 @@
 import React from "react";
-import { saveAs } from "file-saver";
 import DownloadIcon from '../assets/download.png';
+import jsPDF from "jspdf";
 
 const DownloadButton = () => {
 
