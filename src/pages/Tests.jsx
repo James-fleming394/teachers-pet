@@ -60,7 +60,7 @@ const Tests = () => {
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/New-York-State-Math-Practice-Tests-for-3rd-Grade-No-Prep--2455415-1661676477/original-2455415-1.jpg"
                         className="feature-image"
                         alt="feature" />
-                        <h4 className="feature-title">Np Prep Test Prep: Grade 3 Math</h4>
+                        <h4 className="feature-title">No Prep Test Prep: Grade 3 Math</h4>
                         <p className="author">Mr. Chaitin</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
                     </div>
