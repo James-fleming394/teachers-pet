@@ -2,11 +2,15 @@ import React from "react";
 import './Home.css';
 import HomeLogo from '../assets/logo-big.png';
 import RatingLogo from '../assets/star.png'
-// import { useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 const Home = () => {
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
+
+    const navResources = () => {
+        navigate("/assessments")
+    }
 
     return (
         <div className="homepage">
@@ -14,7 +18,7 @@ const Home = () => {
                 <div className="header1">
                     <h3 className="header-h3">Teacher's Pet</h3>
                     <h1 className="header-h1">Teacher's Pet is a One Stop <br></br>Shop for Every Teacher's Needs</h1>
-                    <button className="discover">Start Searching</button>
+                    <button className="discover" onClick={navResources}>Start Searching</button>
                 </div>
                 <img className="logo-image-home"
                 src= {HomeLogo}
@@ -91,7 +95,7 @@ const Home = () => {
                         <p className="users-p"> resources downloaded</p>
                     </div>
                 </div>
-                    <button className="user-button">
+                    <button className="user-button" onClick={navResources}>
                         Discover Resources
                     </button>
                     <img className="resources-img" src="https://www.elmhurst.edu/wp-content/uploads/2021/02/articles-on-teacher-leadership-illustration.jpg" alt="resources" />
