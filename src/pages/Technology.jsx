@@ -2,6 +2,7 @@ import React from "react";
 import './Lesson.css';
 import RatingLogo from '../assets/star.png';
 import { useNavigate } from "react-router";
+import DownloadButton from "../components/Download";
 
 const Technology = () => { 
 
@@ -88,6 +89,7 @@ const Technology = () => {
                         <h4 className="feature-title">CSI Math Game: Digital</h4>
                         <p className="author">Ms. Smith</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Place-Value-Game-3rd-Grade-CSI-Math-Mystery-Activity-2139030-1658705782/original-2139030-1.jpg"
@@ -96,6 +98,7 @@ const Technology = () => {
                         <h4 className="feature-title">Math Mystery: Digital Review</h4>
                         <p className="author">Mr. Omega</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Multiplication-Math-Mystery-Game-Multiplying-with-Larger-Numbers-4th-Grade--2354979-1658684401/original-2354979-1.jpg"
@@ -104,6 +107,7 @@ const Technology = () => {
                         <h4 className="feature-title">Monster Mix Up: Digital</h4>
                         <p className="author">Ms. Fagan</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -117,6 +121,7 @@ const Technology = () => {
                         <h4 className="feature-title">Cause and Effect Game Show</h4>
                         <p className="author">Ms. Strong</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Letter-Fluency-Fitness-Bundle-1657218847/original-1386463-1.jpg"
@@ -125,6 +130,7 @@ const Technology = () => {
                         <h4 className="feature-title">Fluency & Fitness Brain Breaks</h4>
                         <p className="author">Ms. Kelly</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Low-Prep-Classroom-Escape-Room-End-of-Year-Reading-Review-3759516-1657145829/original-3759516-1.jpg"
@@ -133,6 +139,7 @@ const Technology = () => {
                         <h4 className="feature-title">Reading Review: Digital</h4>
                         <p className="author">Ms. Tarnopal</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -146,6 +153,7 @@ const Technology = () => {
                         <h4 className="feature-title">End of Year Classroom Activity</h4>
                         <p className="author">Ms. Sandler</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Action-Verb-Unit-1652097689/original-131310-1.jpg"
@@ -154,6 +162,7 @@ const Technology = () => {
                         <h4 className="feature-title">Action Verbs Digital Activity</h4>
                         <p className="author">Ms. O'Hare</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/EARTH-DAY-ACTIVITIES-craft-writing-prompt-lesson-flip-book-coloring-art-project-105282-1682428128/original-105282-1.jpg"
@@ -162,6 +171,7 @@ const Technology = () => {
                         <h4 className="feature-title">How To Build a Taco: Digital Activity</h4>
                         <p className="author">Ms. Gould</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -175,6 +185,7 @@ const Technology = () => {
                         <h4 className="feature-title">Create a Creature: Science Digital</h4>
                         <p className="author">Mr. Chaitin</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Human-Body-Organ-System-Poster-Project-1615196-1664360986/original-1615196-1.jpg"
@@ -183,6 +194,7 @@ const Technology = () => {
                         <h4 className="feature-title">Human Body: Organ System Digital Activity</h4>
                         <p className="author">Ms. Chdyl</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Solar-System-Craft-ivity-1658604854/original-589657-1.jpg"
@@ -191,6 +203,7 @@ const Technology = () => {
                         <h4 className="feature-title">Solar System & Planets Digital Project</h4>
                         <p className="author">Ms. Brown</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -204,6 +217,7 @@ const Technology = () => {
                         <h4 className="feature-title">Interactive Online Project: Ancient India</h4>
                         <p className="author">Ms. Cornell</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Land-Acknowledgement-Poster-Announcement-Project-Grade-5-Social-Studies--5831198-1658779900/original-5831198-1.jpg"
@@ -212,6 +226,7 @@ const Technology = () => {
                         <h4 className="feature-title">Land Acknowledgement Digital Action Project</h4>
                         <p className="author">Ms. Sainz</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Country-Research-Project-A-Social-Studies-Report-4679661-1652175531/original-4679661-1.jpg"
@@ -220,6 +235,7 @@ const Technology = () => {
                         <h4 className="feature-title">My Country: Research Project</h4>
                         <p className="author">Ms. Wiley</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -233,6 +249,7 @@ const Technology = () => {
                         <h4 className="feature-title">Would you Rather Tech Game</h4>
                         <p className="author">Ms. O'Neill</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Create-a-Board-Game-Project-Based-Learning-Unit-Templates-Rubrics-EDITABLE-3108396-1670631850/original-3108396-1.jpg"
@@ -241,6 +258,7 @@ const Technology = () => {
                         <h4 className="feature-title">Create a Boardgame: Digital Math Project</h4>
                         <p className="author">Ms. Norris</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Game-of-Life-Financial-Literacy-Project-1639002404/original-627444-1.jpg"
@@ -249,6 +267,7 @@ const Technology = () => {
                         <h4 className="feature-title">Game of Life: Digital Financial Project</h4>
                         <p className="author">Ms. DeSimone</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
