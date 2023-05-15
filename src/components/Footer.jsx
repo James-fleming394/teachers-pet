@@ -25,12 +25,14 @@ const Footer = () => {
             <div className="footer-join">
                 <h1 className="footer-h1">Join our global community <br></br>of passionate educators today.</h1>
                 <form className="email-form">
-                <input className="footer-input" 
-                type="email" 
-                placeholder="Enter Your Email Here" 
-                value={email}
-                onChange={handleEmailChange} />
-                <button className="footer-btn" onClick={handleSubmit}>Sign Up</button>
+                    <div className="form-group">
+                        <input className="footer-input" 
+                        type="email" 
+                        placeholder="Enter Your Email Here" 
+                        value={email}
+                        onChange={handleEmailChange} />
+                        <button className="footer-btn" onClick={handleSubmit}>Sign Up</button>
+                    </div>
                 </form>
             </div>
             <div className="footer-bottom">

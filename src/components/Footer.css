@@ -146,3 +146,10 @@
     font-size: 14px;
     }
 }
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
