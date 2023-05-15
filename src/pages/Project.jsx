@@ -2,6 +2,7 @@ import React from "react";
 import './Lesson.css';
 import RatingLogo from '../assets/star.png';
 import { useNavigate } from "react-router";
+import DownloadButton from "../components/Download";
 
 const Projects = () => {
 
@@ -87,6 +88,7 @@ const Projects = () => {
                         <h4 className="feature-title">Place Value Detective Project</h4>
                         <p className="author">Ms. Byrant</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/GEOMETROCITY-Create-Build-a-City-Made-of-Math-Using-Geometry-1339693-1645475556/original-1339693-1.jpg"
@@ -95,6 +97,7 @@ const Projects = () => {
                         <h4 className="feature-title">Geometrocity Project</h4>
                         <p className="author">Mr. Hanley</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Multiplication-and-Division-Project-1949479-1682172914/original-1949479-1.jpg"
@@ -103,6 +106,7 @@ const Projects = () => {
                         <h4 className="feature-title">Video Game Truck: Math Project</h4>
                         <p className="author">Ms. Fagan</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -116,6 +120,7 @@ const Projects = () => {
                         <h4 className="feature-title">Black History Month Research Project</h4>
                         <p className="author">Ms. Smith</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Animal-Research-Project-Spanish-English-BUNDLE-1852863-1665251409/original-1852863-1.jpg"
@@ -124,6 +129,7 @@ const Projects = () => {
                         <h4 className="feature-title">My Animal Research Project</h4>
                         <p className="author">Ms. Kelly</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/English-Language-Arts-Choice-Board-Project-Based-Summer-or-Distance-Learning-5596185-1597422873/original-5596185-1.jpg"
@@ -132,6 +138,7 @@ const Projects = () => {
                         <h4 className="feature-title">Langauge Arts Choice Board</h4>
                         <p className="author">Ms. Tarnopal</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -145,6 +152,7 @@ const Projects = () => {
                         <h4 className="feature-title">End of Year Classroom Project</h4>
                         <p className="author">Ms. Sandler</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/-Animal-Reports-A-Lapbook-Animal-Research-Project-Informational-Writing-1771546-1676851428/original-1771546-1.jpg"
@@ -153,6 +161,7 @@ const Projects = () => {
                         <h4 className="feature-title">Animals Guided Research & Writing Project</h4>
                         <p className="author">Ms. O'Hare</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/EARTH-DAY-ACTIVITIES-craft-writing-prompt-lesson-flip-book-coloring-art-project-105282-1682428128/original-105282-1.jpg"
@@ -161,6 +170,7 @@ const Projects = () => {
                         <h4 className="feature-title">How To Build a Taco: Writing Project</h4>
                         <p className="author">Ms. Gould</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -174,6 +184,7 @@ const Projects = () => {
                         <h4 className="feature-title">Create a Creature: Science Project</h4>
                         <p className="author">Mr. Chaitin</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Human-Body-Organ-System-Poster-Project-1615196-1664360986/original-1615196-1.jpg"
@@ -182,6 +193,7 @@ const Projects = () => {
                         <h4 className="feature-title">Human Body: Organ System Project</h4>
                         <p className="author">Ms. Chdyl</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Solar-System-Craft-ivity-1658604854/original-589657-1.jpg"
@@ -190,6 +202,7 @@ const Projects = () => {
                         <h4 className="feature-title">Solar System & Planets Project</h4>
                         <p className="author">Ms. Brown</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -203,6 +216,7 @@ const Projects = () => {
                         <h4 className="feature-title">Interactive Project: Ancient India</h4>
                         <p className="author">Ms. Cornell</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Land-Acknowledgement-Poster-Announcement-Project-Grade-5-Social-Studies--5831198-1658779900/original-5831198-1.jpg"
@@ -211,6 +225,7 @@ const Projects = () => {
                         <h4 className="feature-title">Land Acknowledgement Action Project</h4>
                         <p className="author">Ms. Sainz</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Country-Research-Project-A-Social-Studies-Report-4679661-1652175531/original-4679661-1.jpg"
@@ -219,6 +234,7 @@ const Projects = () => {
                         <h4 className="feature-title">My Country: Research Project</h4>
                         <p className="author">Ms. Wiley</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -232,6 +248,7 @@ const Projects = () => {
                         <h4 className="feature-title">Summer Bucket List Project</h4>
                         <p className="author">Ms. O'Neill</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Create-a-Board-Game-Project-Based-Learning-Unit-Templates-Rubrics-EDITABLE-3108396-1670631850/original-3108396-1.jpg"
@@ -240,6 +257,7 @@ const Projects = () => {
                         <h4 className="feature-title">Create a Boardgame: Math Project</h4>
                         <p className="author">Ms. Norris</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Game-of-Life-Financial-Literacy-Project-1639002404/original-627444-1.jpg"
@@ -248,6 +266,7 @@ const Projects = () => {
                         <h4 className="feature-title">Game of Life: Financial Project</h4>
                         <p className="author">Ms. DeSimone</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>

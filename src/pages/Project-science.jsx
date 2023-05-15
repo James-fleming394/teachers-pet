@@ -1,6 +1,7 @@
 import React from "react";
 import './Tests.css';
 import RatingLogo from '../assets/star.png';
+import DownloadButton from "../components/Download";
 
 const ScienceProject = () => {
 
@@ -33,6 +34,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">STEM Challenge: Bottle Flip</h4>
                         <p className="author">Ms. Kane</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Human-Body-Systems-Flip-Book-1210733-1586185574/original-1210733-1.jpg"
@@ -41,6 +43,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Human Body Flip Book Project</h4>
                         <p className="author">Ms. Vivaldi</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Earth-Day-Agamographs-Unique-Earth-Day-Activity-or-Earth-Day-Craft--1810664-1682101152/original-1810664-1.jpg"
@@ -49,6 +52,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Earth Day Agamograph Project</h4>
                         <p className="author">Ms. Chialini</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/STEM-Family-Projects-for-Elementary-Students-1665394261/original-1807502-1.jpg"
@@ -57,6 +61,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">STEM At Home Projects Bundle</h4>
                         <p className="author">Ms. Winfield</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.6</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/STEM-Activities-for-the-Entire-Year-includes-Easter-STEM-Activities-3042818-1680978579/original-3042818-1.jpg"
@@ -65,6 +70,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">STEM Entire Year Project Bundle</h4>
                         <p className="author">Mr. Daboll</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Fidget-Spinner-Activities-and-STEM-Challenge-3097680-1663856237/original-3097680-1.jpg"
@@ -73,6 +79,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Fidget Spinner STEM Project</h4>
                         <p className="author">Ms. Beyonder</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Genius-Hour-Pack-for-Elementary-2739053-1658854875/original-2739053-1.jpg"
@@ -81,6 +88,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Genius Hour Science Projects</h4>
                         <p className="author">Mr. Laguerre</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.5</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/STEM-Activity-Index-Card-Tower-Challenge-1217602-1682365753/original-1217602-1.jpg"
@@ -89,6 +97,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Index Card Towers: STEM Challenge</h4>
                         <p className="author">Ms. Rowan</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Spider-Math-and-Literacy-Activities-1682338146/original-100854-1.jpg"
@@ -97,6 +106,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Spiders: Nonfiction Science Project</h4>
                         <p className="author">Ms. Mitchell</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.4</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Rocks-Minerals-Lapbook-Interactive-Kit-1167610-1642063574/original-1167610-1.jpg"
@@ -105,6 +115,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Rocks & Minerals Lapbook Project</h4>
                         <p className="author">Ms. David</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Bat-Facts-Fold-and-Learn-1656583695/original-336735-1.jpg"
@@ -113,6 +124,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Bats: Fold & Learn Project</h4>
                         <p className="author">Ms. Potter</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Discovery-in-the-Rainforest-A-Project-Based-Learning-Activity-1659290-1588933772/original-1659290-1.jpg"
@@ -121,6 +133,7 @@ const ScienceProject = () => {
                         <h4 className="feature-title">Science Project: PBL Rainforest</h4>
                         <p className="author">Ms. Okun</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
