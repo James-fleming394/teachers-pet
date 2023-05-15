@@ -2,6 +2,7 @@ import React from "react";
 import './Lesson.css';
 import RatingLogo from '../assets/star.png';
 import { useNavigate } from "react-router";
+import DownloadButton from "../components/Download";
 
 const Homework = () => {
 
@@ -87,6 +88,7 @@ const Homework = () => {
                         <h4 className="feature-title">Summer Practice 3rd Grade Math Homework</h4>
                         <p className="author">Ms. Grant</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/5th-Grade-Math-and-English-Language-Daily-Morning-Work-Common-Core-1451932-1675687482/original-1451932-1.jpg"
@@ -95,6 +97,7 @@ const Homework = () => {
                         <h4 className="feature-title">Math and ELA Homework Activites</h4>
                         <p className="author">Mr. Swingley</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Kindergarten-Homework-Weekly-Family-Games-Editable-One-Year-Bundle-2779372-1677702295/original-2779372-1.jpg"
@@ -103,6 +106,7 @@ const Homework = () => {
                         <h4 className="feature-title">Kindergarten Math Homework Full Year Bundle</h4>
                         <p className="author">Ms. Fagan</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -116,6 +120,7 @@ const Homework = () => {
                         <h4 className="feature-title">Math and ELA Homework Activites</h4>
                         <p className="author">Ms. Cavatiao</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/3rd-Grade-Language-Spiral-Review-Morning-Work-Daily-Grammar-Review-Homework-1650829-1679160726/original-1650829-1.jpg"
@@ -124,6 +129,7 @@ const Homework = () => {
                         <h4 className="feature-title">Grammar Homework Review</h4>
                         <p className="author">Ms. Brennan</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Language-Bell-Work-for-4th-Grade-013212100-1369878907-1674313513/original-712155-1.jpg"
@@ -132,6 +138,7 @@ const Homework = () => {
                         <h4 className="feature-title">Language Spiral Review 4th Grade</h4>
                         <p className="author">Ms. Trust</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -145,6 +152,7 @@ const Homework = () => {
                         <h4 className="feature-title">Sight Word Writing Homework</h4>
                         <p className="author">Ms. Piget</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Writing-Center-Printables-Interactive-Learning-Display-853834-1678980824/original-853834-1.jpg"
@@ -153,6 +161,7 @@ const Homework = () => {
                         <h4 className="feature-title">Interactive Writing Homework Activites</h4>
                         <p className="author">Ms. Bryant</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/2nd-Grade-Spring-Break-Homework-Packet-5279455-1678309881/original-5279455-1.jpg"
@@ -161,6 +170,7 @@ const Homework = () => {
                         <h4 className="feature-title">Spring Break Writing Homework Packet</h4>
                         <p className="author">Ms. Lopez</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -174,6 +184,7 @@ const Homework = () => {
                         <h4 className="feature-title">Science Spiral Review/Homework</h4>
                         <p className="author">Mr. Hoult</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Apple-Science-Interactive-Activities-1444752-1681123182/original-1444752-1.jpg"
@@ -182,6 +193,7 @@ const Homework = () => {
                         <h4 className="feature-title">Apple Science Homeowrk Activity</h4>
                         <p className="author">Ms. Reginoe</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Scientific-Method-Homework-Study-Guide-Science-Skills-Worksheet-1682520443/original-144083-1.jpg"
@@ -190,6 +202,7 @@ const Homework = () => {
                         <h4 className="feature-title">Scientific Method Take Home Worksheet</h4>
                         <p className="author">Ms. Levis</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -203,6 +216,7 @@ const Homework = () => {
                         <h4 className="feature-title">Veteran's Day Homework</h4>
                         <p className="author">Ms. Valor</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/CIVIL-WAR-Sectionalism-Map-HomeworkActivityPrintable-1136649-1491248581/original-1136649-1.jpg"
@@ -211,6 +225,7 @@ const Homework = () => {
                         <h4 className="feature-title">Sectionalism Map Homework</h4>
                         <p className="author">Ms. Cayne</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/US-History-13-Colonies-Colonial-Crossword-WorksheetPrintableHomework-1095241-1656583751/original-1095241-1.jpg"
@@ -219,6 +234,7 @@ const Homework = () => {
                         <h4 className="feature-title">Colonial Crossword Homework Worksheet</h4>
                         <p className="author">Ms. Reveir</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
@@ -232,6 +248,7 @@ const Homework = () => {
                         <h4 className="feature-title">Back to School Homework 1st Grade</h4>
                         <p className="author">Ms. Munson</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Back-to-School-Math-Activities-for-the-First-Week-of-School-297895-1661609294/original-297895-1.jpg"
@@ -240,6 +257,7 @@ const Homework = () => {
                         <h4 className="feature-title">Back to School Homework Kindergarten</h4>
                         <p className="author">Ms. Spina</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Speech-Therapy-Homework-YEAR-LONG-BUNDLE-Articulation-Language-Pragmatics-4623213-1682682798/original-4623213-1.jpg"
@@ -248,6 +266,7 @@ const Homework = () => {
                         <h4 className="feature-title">Speech Therapy Homework</h4>
                         <p className="author">Ms. Canter</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
