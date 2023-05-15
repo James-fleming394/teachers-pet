@@ -5,16 +5,33 @@ import linkedin from '../assets/linkedin.png';
 import twitter from '../assets/twitter.png';
 import github from '../assets/github.png';
 import instagram from '../assets/instagram.png';
+import { useState } from "react";
 
 const Footer = () => {
+
+    const [email, setEmail] = useState('');
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        alert('Thank you for joining our community!');
+    };
+
+    const handleEmailChange = (event) => {
+        setEmail(event.target.value);
+    };
 
     return (
         <div className="footer">
             <div className="footer-join">
                 <h1 className="footer-h1">Join our global community <br></br>of passionate educators today.</h1>
-                <button className="footer-btn">
-                    Sign Up
-                </button>
+                <form className="email-form">
+                <input className="footer-input" 
+                type="email" 
+                placeholder="Enter Your Email Here" 
+                value={email}
+                onChange={handleEmailChange} />
+                <button className="footer-btn" onClick={handleSubmit}>Sign Up</button>
+                </form>
             </div>
             <div className="footer-bottom">
                 <div className="container">
