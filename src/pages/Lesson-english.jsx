@@ -1,6 +1,7 @@
 import React from "react";
 import RatingLogo from '../assets/star.png';
 import './Tests.css';
+import DownloadButton from "../components/Download";
 
 const EnglishLesson = () => {
     
@@ -33,6 +34,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">Reading Test Prep Lessons</h4>
                         <p className="author">Ms. Boyle</p>
                         <p className="star"><img className="star-" src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Emergency-Sub-Lesson-Plans-for-Middle-School-2340227-1678272650/original-2340227-1.jpg"
@@ -41,6 +43,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">ELA Emergency Substitute Lessons</h4>
                         <p className="author">Mr. Nappi</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/4th-Grade-ELA-Reading-Writing-Language-Curriculum-ELA-Common-Core-Standards-3235542-1679053232/original-3235542-1.jpg"
@@ -49,6 +52,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">All Year ELA Fourth Grade Lessons</h4>
                         <p className="author">Ms. Norey</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/5-Doodle-Notes-and-Learning-Activities-Mini-Units-Reading-Comprehension-Skills-2942284-1657531389/original-2942284-1.jpg"
@@ -57,6 +61,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">Reading Skills Unit Lesson</h4>
                         <p className="author">Ms. Abinakad</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Grammar-Curriculum-Growing-Bundle-FULL-YEAR-of-Editable-Lessons-for-ELA-3281038-1657532707/original-3281038-1.jpg"
@@ -65,6 +70,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">ELA Grammar Bundle</h4>
                         <p className="author">Mr. Fleming</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/The-Novel-a-unit-for-any-novel-secondary-English-1657527093/original-1944538-1.jpg"
@@ -73,6 +79,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">Novel Unit Lessons</h4>
                         <p className="author">Ms. Munson</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Language-Arts-Leveled-Daily-Curriculum-BUNDLE--2001081-1665074585/original-2001081-1.jpg"
@@ -81,6 +88,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">Bundle: ELA Leveled Reading Lessons</h4>
                         <p className="author">Mr. Lopez</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Doodle-and-Do-ELA-Skills-Bundle-6-Units-Vocabulary-Writing-Reading-3956308-1657535566/original-3956308-1.jpg"
@@ -89,6 +97,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">ELA Reading Skills Bundle</h4>
                         <p className="author">Ms. Cola</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>5.0</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/3rd-Grade-ELA-Reading-and-Writing-Bundle-4947681-1657540698/original-4947681-1.jpg"
@@ -97,6 +106,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">ELA 3rd Grade Resource Bundle</h4>
                         <p className="author">Ms. Olivera</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.9</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/On-the-Go-ELA-Routines-4750203-1657578632/original-4750203-1.jpg"
@@ -105,6 +115,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">On the Go ELA Routine Lessons</h4>
                         <p className="author">Ms. Tarnopal</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.8</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/RACE-Strategy-BUNDLE-12-Teaching-Slides-6-Practice-Activities-ELA-Test-Prep-6483014-1679651648/original-6483014-1.jpg"
@@ -113,6 +124,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">R.A.C.E.S Lessons Bundle</h4>
                         <p className="author">Ms. Manca</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.7</p>
+                        <DownloadButton />
                     </div>
                     <div className="feature">
                         <img src="https://ecdn.teacherspayteachers.com/thumbitem/Independent-and-Dependent-Clauses-2144125-1657646962/original-2144125-1.jpg"
@@ -121,6 +133,7 @@ const EnglishLesson = () => {
                         <h4 className="feature-title">Grammar: Clauses Unit Lessons</h4>
                         <p className="author">Ms. Taylor</p>
                         <p className="star"><img src={RatingLogo} alt="rating"/>4.3</p>
+                        <DownloadButton />
                     </div>
                 </div>
             </div>
