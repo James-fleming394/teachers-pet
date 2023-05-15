@@ -1,0 +1,38 @@
+.DownloadButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.DownloadButton:hover {
+    cursor: pointer;
+}
+
+.DownloadIcon {
+    width: 10%;
+    padding-right: 5px;
+}
+
+.DownloadIcon:hover {
+    cursor: pointer;
+}
+
+.DownloadText {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid #ff4800;
+    padding: 5px;
+    transition-duration: 0.4s;
+}
+
+.DownloadText:hover {
+    cursor: pointer;
+    background-color: #ff4800;
+    border: 2px solid black;
+    color: white;
+}
+

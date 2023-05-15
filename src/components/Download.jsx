@@ -1,6 +1,7 @@
 import React from "react";
 import DownloadIcon from '../assets/download.png';
 import jsPDF from "jspdf";
+import './Download.css';
 
 const DownloadButton = () => {
 
@@ -14,7 +15,11 @@ const DownloadButton = () => {
     };
 
     return(
-        <button onClick={downloadPDF}><img src={DownloadIcon} alt="download icon"></img>Download Resource</button>
+        <div className="DownloadButton">
+            <button className="DownloadText" onClick={downloadPDF}>
+            <img className="DownloadIcon" src={DownloadIcon} alt="download icon"></img>
+            Download Resource</button>
+        </div>
     )
 }
 
