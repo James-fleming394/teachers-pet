@@ -17,8 +17,8 @@ const Home = () => {
         <div className="homepage">
             <div className="header">
                 <div className="header1">
-                    <h3 className="header-h3">Teacher's Pet</h3>
-                    <h1 className="header-h1">Teacher's Pet is a One Stop <br></br>Shop for Every Teacher's Needs</h1>
+                    <h2 className="header-h3">Teacher's Pet</h2>
+                    <h1 className="header-h1">Teacher's Pet is A One Stop <br></br>Shop for Every Teacher's Needs</h1>
                     <button className="discover" onClick={navResources}>Start Exploring</button>
                 </div>
                 <img className="logo-image-home"
