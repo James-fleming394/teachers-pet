@@ -46,40 +46,40 @@ const App = () => {
       <Search />
       <div className='actual-app'>
         <Routes>
-          <Route path="" element={<Home />} />
-          <Route path="/assessments" element={<Assessments />} />
-              <Route path="/assessments/tests" element={<Tests />} />
-              <Route path="/assessments/quizzes" element={<Quizzes />} />
-          <Route path="/lessons" element={<Lesson />} />
-              <Route path="/lessons/math" element={<MathLesson />} />
-              <Route path="/lessons/english" element={<EnglishLesson />} />
-              <Route path="/lessons/writing" element={<WritingLesson />} />
-              <Route path="/lessons/science" element={<ScienceLesson />} />
-              <Route path="/lessons/social-studies" element={<SSLesson />} />
-              <Route path="/lessons/other" element={<OtherLesson />} />
-            <Route path="/projects" element={<Projects />} />
-              <Route path="/projects/math" element={<MathProject />} /> 
-              <Route path="/projects/english" element={<EnglishProject />} /> 
-              <Route path="/projects/writing" element={<WritingProject />} /> 
-              <Route path="/projects/science" element={<ScienceProject />} /> 
-              <Route path="/projects/social-studies" element={<SSProject />} /> 
-              <Route path="/projects/other" element={<OtherProject />} /> 
-            <Route path="/homework" element={<Homework />} />
-              <Route path="/homework/math" element={<MathHomework />} />
-              <Route path="/homework/english" element={<EnglishHomework />} />
-              <Route path="/homework/writing" element={<WritingHomework />} />
-              <Route path="/homework/science" element={<ScienceHomework />} />
-              <Route path="/homework/social-studies" element={<SSHomework />} />
-              <Route path="/homework/other" element={<OtherHomework />} />
-            <Route path="/technology" element={<Technology />} />
-              <Route path="/technology/math" element={<MathTechnology />} />
-              <Route path="/technology/english" element={<EnglishTechnology />} />
-              <Route path="/technology/writing" element={<WritingTechnology />} />
-              <Route path="/technology/science" element={<ScienceTechnology />} />
-              <Route path="/technology/social-studies" element={<SSTechnology />} />
-              <Route path="/technology/other" element={<OtherTechnology />} />
-          <Route path="/rewards" element={<Rewards />} />
-          <Route path="/about" element={<About />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/assessments' element={<Assessments />} />
+              <Route path='/assessments/tests' element={<Tests />} />
+              <Route path='/assessments/quizzes' element={<Quizzes />} />
+          <Route path='/lessons' element={<Lesson />} />
+              <Route path='/lessons/math' element={<MathLesson />} />
+              <Route path='/lessons/english' element={<EnglishLesson />} />
+              <Route path='/lessons/writing' element={<WritingLesson />} />
+              <Route path='lessons/science' element={<ScienceLesson />} />
+              <Route path='/lessons/social-studies' element={<SSLesson />} />
+              <Route path='/lessons/other' element={<OtherLesson />} />
+            <Route path='/projects' element={<Projects />} />
+              <Route path='/projects/math' element={<MathProject />} /> 
+              <Route path='/projects/english' element={<EnglishProject />} /> 
+              <Route path='/projects/writing' element={<WritingProject />} /> 
+              <Route path='/projects/science' element={<ScienceProject />} /> 
+              <Route path='/projects/social-studies' element={<SSProject />} /> 
+              <Route path='/projects/other' element={<OtherProject />} /> 
+            <Route path='/homework' element={<Homework />} />
+              <Route path='/homework/math' element={<MathHomework />} />
+              <Route path='/homework/english' element={<EnglishHomework />} />
+              <Route path='/homework/writing' element={<WritingHomework />} />
+              <Route path='/homework/science' element={<ScienceHomework />} />
+              <Route path='/homework/social-studies' element={<SSHomework />} />
+              <Route path='/homework/other' element={<OtherHomework />} />
+            <Route path='/technology' element={<Technology />} />
+              <Route path='/technology/math' element={<MathTechnology />} />
+              <Route path='/technology/english' element={<EnglishTechnology />} />
+              <Route path='/technology/writing' element={<WritingTechnology />} />
+              <Route path='/technology/science' element={<ScienceTechnology />} />
+              <Route path='/technology/social-studies' element={<SSTechnology />} />
+              <Route path='/technology/other' element={<OtherTechnology />} />
+          <Route path='/rewards' element={<Rewards />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </div>
       <Footer />
