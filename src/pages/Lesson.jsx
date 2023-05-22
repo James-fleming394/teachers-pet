@@ -46,7 +46,7 @@ const Lesson = () => {
                     <h1 className="h1-lesson">English Lessons</h1>
                     <img 
                     className="lesson-img" 
-                    src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/35436022_995091660649239_5010228248710217728_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VHUwcHF6IecAX99LuHh&_nc_ht=scontent-lga3-2.xx&oh=00_AfA8WPMsDEQTin9rXXHKEQNS3mAIlZGrD0g2AjgI4K8MwQ&oe=6467A4B3"
+                    src="https://thumbs.dreamstime.com/b/language-school-adult-kids-english-courses-class-language-school-adult-kids-english-courses-class-141377378.jpg"
                     alt="lessons" />
                 </div>
                 <div className="lessons-section" onClick={writingClick}>
