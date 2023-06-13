@@ -1,6 +1,6 @@
 # Teacher's Pet Frontend
 
-## [Deployed Site]()
+## [Deployed Site](https://teachers-pet.herokuapp.com/)
 Created by James Fleming
 # Socials
 
@@ -33,7 +33,14 @@ Teacher's Pet is a CRUD application that allows teacher's to view, input, update
 
 # Views 
 
-## [Deployed Site]()
+## [Deployed Site](https://teachers-pet.herokuapp.com/)
+
+## ![Homepage](https://i.imgur.com/pv3TyuV.png)
+## ![Homepage](https://i.imgur.com/26mX45L.png)
+## ![Homepage](https://i.imgur.com/fYvUXwc.png)
+## ![Homepage](https://i.imgur.com/mgLLOze.png)
+## ![Homepage](https://i.imgur.com/6udIMEy.png)
+## ![Homepage](https://i.imgur.com/XOLOfGx.png)
 
 
 
